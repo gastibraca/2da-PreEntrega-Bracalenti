@@ -1,0 +1,33 @@
+*{
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    background-color: bisque;
+}
+
+button{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.botones{
+    grid-template-columns: 2;
+    background-color: brown;
+}
+
+#Total{
+    width: 15% ;
+    height: 15.625rem;
+    background-color: whitesmoke;
+}
+
+#carrito{
+    background-color: whitesmoke;
+    width: 15%;
+}
+#cantCarrito{
+    background-color: whitesmoke;
+    width: 13%;
+}
+#precio{
+    background-color: whitesmoke;
+}

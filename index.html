@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Kiosco</h1>
-
-
+    <h1 id="titulo">Kiosco</h1>
+    <section class="botones">
+        <h2>Gomitas</h2>
+        <button id="gom-cla">Agregar gomitas clasicas</button>
+        <button id="gom-var">Agregar gomitas surtidas</button>
+        <h2>Alfajores</h2>
+        <button id="alfa-cla">Agregar alfajores clasicos</button>
+        <button id="alfa-var">Agregar alfajores surtidos</button>
+        <h2>Chocolates</h2>
+        <button id="choc-cla">Agregar chocolates</button>
+        <button id="choc-var">Agregar chocolates surtidos</button>
+    </section id="Total">
+    <div>
+        Carrito
+        <ul id="carrito"></ul>
+        <h3>Total</h3>
+        <ul id="precio">vacio</ul>
+    </div>
+    <div class="botones">
+        <h2>Hacer pedido!</h2>
+        <button id="finCompra">Pasar a caja</button>
+    </div>
 </body>
 </html>
+<script src="./main.js"></script>
